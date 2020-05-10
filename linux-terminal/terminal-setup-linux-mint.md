@@ -41,11 +41,11 @@ Add directory aliases to `.zshrc`
 `alias repos="~/repos"`  
 
 ## References
-<a href="https://github.com/ohmyzsh/ohmyzsh">oh-my-zsh github</a>  
-<a href="https://github.com/powerline/fonts">Powerline fonts repo</a>  
-<a href="https://github.com/denysdovhan/one-gnome-terminal">One Dark theme for gnome terminal</a>  
-<a href="https://github.com/zsh-users/zsh-autosuggestions">zsh-autosuggestions</a>  
-<a href="https://github.com/zsh-users/zsh-syntax-highlighting">zsh-syntax-highlighting</a>  
+[oh-my-zsh github](https://github.com/ohmyzsh/ohmyzsh)  
+[Powerline fonts repo](https://github.com/powerline/fonts)  
+[One Dark theme for gnome terminal](https://github.com/denysdovhan/one-gnome-terminal)  
+[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)  
+[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)  
 
 ## Miscellaneous
 - powerlevel9k or powerlevel10k
