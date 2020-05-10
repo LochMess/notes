@@ -1,8 +1,12 @@
 # Windows Terminal Notes
 Configuration notes for [windows terminal](https://www.microsoft.com/en-us/p/windows-terminal-preview/9n0dx20hk701?activetab=pivot:overviewtab).
 
+## Hardlink Config
+Create a hardlink to the application configuration allowing the config to be placed under version control, example using cmd `mklink /H %LocalAppData%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json C:\repos\notes\windows-terminal\settings.json`
+
 ## Colour theme
-Create snazzy colour theme based off [hyper-snazzy](https://github.com/sindresorhus/hyper-snazzy).  
+Create snazzy colour theme based off [hyper-snazzy](https://github.com/sindresorhus/hyper-snazzy). 
+Go to settings via the down array in the title bar. 
 In the `schemes` array add a new item,  
 ```json
 {
@@ -27,7 +31,7 @@ In the `schemes` array add a new item,
     "brightWhite": "#eff0eb"
 }
 ```  
-Now set WSL profile to use this by adding this line to the profile `"colorScheme": "snazzy"`.
+Now set WSL profile to use this by adding this line to the profile `"colorScheme": "snazzy"`. Powershell can also use this by repeating the above for the powershell entry.
 
 ## Font
 Cascadia code PL front from microsoft [cascadia-font](https://github.com/microsoft/cascadia-code).  

@@ -2,7 +2,7 @@
 Notes for environment setup and cheatsheets.
 
 ## Cheatsheets
-- [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links)
+- [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ## Setup
 ### Windows
