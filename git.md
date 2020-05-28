@@ -1,6 +1,6 @@
 # git
 ## SSH Windows 10
-1. Generate SSH keys using `ssh-keygen`
+1. Generate SSH keys using `ssh-keygen -t rsa -b 4096 -C "<address>@users.noreply.github.com"`
     - Create public and private key with password ie `~/<user>/.ssh/id_rsa` and `~/<user>/.ssh/id_rsa.pub`
 2. Add the public ssh to the remote ie [github](https://github.com/settings/keys)
 3. Change existing repos from https to ssh,
